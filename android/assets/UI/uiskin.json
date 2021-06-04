@@ -1,0 +1,41 @@
+{
+  com.badlogic.gdx.graphics.g2d.BitmapFont: {
+    default-font: {file: fonts/default.fnt }
+  },
+  com.badlogic.gdx.graphics.Color: {
+    black: {a: 1, b: 0, g: 0, r: 0 },
+    white: {a: 1, b: 1, g: 1, r: 1 },
+    green: {a: 1, b: 0, g: 1, r: 0 },
+    red: {a: 1, b: 0, g: 0, r: 1 },
+    blue: {a: 1, b: 1, g: 0, r: 0 },
+    grey: {a: 1, b: 0.32, g: 0.32, r: 0.32 },
+    vis-blue: {a: 1, b: 0.886, g: 0.631, r: 0.105 },
+    vis-red: {a: 1, b: 0.047, g: 0, r: 0.862 },
+    menuitem: {a: 1, b: 0.65, g: 0.65, r: 0.65 },
+    link-label: {a: 1, b: 0.886, g: 0.631, r: 0.105 },
+    "dna": { "a": 1, "b": 0.117, "g": 0.5, "r":0.04 }
+  },
+
+  LabelStyle: {
+    default: {font: default-font, fontColor: green }
+    upgrades-big: {font: default-font, fontColor: white}
+    upgrades-small:{font: default-font, fontColor: white}
+  },
+  TextButtonStyle: {
+    default: {  font: default-font, fontColor: white, disabledFontColor: grey }
+
+  },
+
+  "ScrollPaneStyle": {
+    "upgrades": {
+      "background": grey,
+    }
+  },
+  ImageTextButtonStyle: {
+    default: {
+      imageUp:grey,
+      imageDown:grey,
+      font:default-font
+    }
+  }
+}
