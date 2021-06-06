@@ -310,11 +310,14 @@ public class Scene extends Stage{
             planet = 4;
             setPlanet(planet);
         }
-        else if(virus.getInfected() >= 500000 && planet != 3) {
-            planet = 3;
-            setPlanet(planet);
+        else if(virus.getInfected() >= 15) {
+            if(planet != 3) {
+                planet = 3;
+                setPlanet(planet);
+            }
+
         }
-        else if(virus.getInfected() >= 10 && planet != 2) {
+        else if(virus.getInfected() >= 10) {
             planet = 2;
             setPlanet(planet);
         }

@@ -1,0 +1,111 @@
+
+planet1_ill.png
+size: 8192, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+adult_man
+  rotate: false
+  xy: 3121, 124
+  size: 302, 786
+  orig: 302, 786
+  offset: 0, 0
+  index: -1
+businesswoman
+  rotate: false
+  xy: 3992, 178
+  size: 302, 732
+  orig: 302, 732
+  offset: 0, 0
+  index: -1
+casual_man
+  rotate: false
+  xy: 744, 15
+  size: 361, 895
+  orig: 361, 895
+  offset: 0, 0
+  index: -1
+doc2
+  rotate: false
+  xy: 2, 2
+  size: 366, 908
+  orig: 366, 908
+  offset: 0, 0
+  index: 2
+doc1
+  rotate: false
+  xy: 370, 21
+  size: 372, 889
+  orig: 372, 889
+  offset: 0, 0
+  index: -1
+fitness_boy
+  rotate: false
+  xy: 2241, 83
+  size: 303, 827
+  orig: 303, 827
+  offset: 0, 0
+  index: -1
+grandfather
+  rotate: false
+  xy: 2546, 79
+  size: 279, 831
+  orig: 279, 831
+  offset: 0, 0
+  index: -1
+grandmotherfucker
+  rotate: false
+  xy: 2827, 107
+  size: 292, 803
+  orig: 292, 803
+  offset: 0, 0
+  index: -1
+homeless_noob
+  rotate: false
+  xy: 1514, 116
+  size: 373, 794
+  orig: 373, 794
+  offset: 0, 0
+  index: -1
+pharmacist
+  rotate: false
+  xy: 1889, 109
+  size: 350, 801
+  orig: 350, 801
+  offset: 0, 0
+  index: -1
+shopping_girl
+  rotate: false
+  xy: 1107, 84
+  size: 405, 826
+  orig: 405, 826
+  offset: 0, 0
+  index: -1
+student
+  rotate: false
+  xy: 3425, 114
+  size: 281, 796
+  orig: 281, 796
+  offset: 0, 0
+  index: -1
+vkid_boy
+  rotate: false
+  xy: 4296, 278
+  size: 270, 632
+  orig: 270, 632
+  offset: 0, 0
+  index: -1
+vkid_girl
+  rotate: false
+  xy: 4568, 307
+  size: 295, 603
+  orig: 295, 603
+  offset: 0, 0
+  index: -1
+young_girl
+  rotate: false
+  xy: 3708, 127
+  size: 282, 783
+  orig: 282, 783
+  offset: 0, 0
+  index: -1

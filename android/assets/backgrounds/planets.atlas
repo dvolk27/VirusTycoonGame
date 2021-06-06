@@ -1,0 +1,41 @@
+
+planets.png
+size: 8192, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+background3
+  rotate: false
+  xy: 2, 2
+  size: 1080, 1920
+  orig: 1080, 1920
+  offset: 0, 0
+  index: 3
+background5
+  rotate: false
+  xy: 1084, 2
+  size: 1080, 1920
+  orig: 1080, 1920
+  offset: 0, 0
+  index: 5
+background2
+  rotate: false
+  xy: 2166, 2
+  size: 1080, 1920
+  orig: 1080, 1920
+  offset: 0, 0
+  index: 2
+background4
+  rotate: false
+  xy: 3248, 2
+  size: 1080, 1920
+  orig: 1080, 1920
+  offset: 0, 0
+  index: 4
+background1
+  rotate: false
+  xy: 4330, 2
+  size: 1080, 1920
+  orig: 1080, 1920
+  offset: 0, 0
+  index: -1
