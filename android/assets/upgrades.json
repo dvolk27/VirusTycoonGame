@@ -1,0 +1,289 @@
+{
+  "planet": 1,
+  "peopleImmune": 10,
+    virus: [{dna:0,dnaPerPeople:1,dnaPerSecond:0,infected:0,power:1,spread:1}],
+
+  upgrades: [{
+  class: com.mygdx.game.Model.Upgrade,
+  basecost: 10,
+  purchased: 0,
+  upgradeName: Передача рукопожатием,
+  upgradeValue: 1
+},
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 100,
+    purchased: 0,
+    upgradeName: Передача воздушно-капельным путем,
+    upgradeValue: 2
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 600,
+    purchased: 0,
+    upgradeName: Передача через предметы,
+    upgradeValue: 5
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 3200,
+    purchased: 0,
+    upgradeName: Вирус в воздухе вокруг больного,
+    upgradeValue: 10
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 12300,
+    purchased: 0,
+    upgradeName: Передача через домашних животных,
+    upgradeValue: 20
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 60000,
+    purchased: 0,
+    upgradeName: Передача через насекомых,
+    upgradeValue: 45
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 300000,
+    purchased: 0,
+    upgradeName: Передача через еду,
+    upgradeValue: 100
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 1500000,
+    purchased: 0,
+    upgradeName: Распространение по водопроводу,
+    upgradeValue: 200
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 6666666,
+    purchased: 0,
+    upgradeName: Распространение по гидросфере,
+    upgradeValue: 444
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 9999999999,
+    purchased: 0,
+    upgradeName: Распространение по атмосфере,
+    upgradeValue: 999
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 10,
+    purchased: 0,
+    upgradeName: Способы проникновение в организм,
+    upgradeValue: 1
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 50,
+    purchased: 0,
+    upgradeName: Подавление бдительности организма,
+    upgradeValue: 2
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 300,
+    purchased: 0,
+    upgradeName: Распространение по организму,
+    upgradeValue: 6
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 1200,
+    purchased: 0,
+    upgradeName: Защита от воздействия лекарств,
+    upgradeValue: 18
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 6000,
+    purchased: 0,
+    upgradeName: Скорость перестройки генома,
+    upgradeValue: 45
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 24000,
+    purchased: 0,
+    upgradeName: Подавление усваивания витаминов,
+    upgradeValue: 120
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 96000,
+    purchased: 0,
+    upgradeName: Подавление лейкоцитов,
+    upgradeValue: 310
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 480000,
+    purchased: 0,
+    upgradeName: Разрушние спинного мозга,
+    upgradeValue: 800
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 3333333,
+    purchased: 0,
+    upgradeName: Подавлене нервной системы,
+    upgradeValue: 2222
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 66666666,
+    purchased: 0,
+    upgradeName: Нарушение работы мозга,
+    upgradeValue: 5555
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 10,
+    purchased: 0,
+    upgradeName: Проникновение в организм,
+    upgradeValue: 1
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 100,
+    purchased: 0,
+    upgradeName: Разрушение клеточной мембраны,
+    upgradeValue: 3
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 400,
+    purchased: 0,
+    upgradeName: Разрушение более плотных тканей,
+    upgradeValue: 10
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 2000,
+    purchased: 0,
+    upgradeName: Количество выделенного ДНК,
+    upgradeValue: 30
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 10000,
+    purchased: 0,
+    upgradeName: Целостность выделенного ДНК,
+    upgradeValue: 95
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 50000,
+    purchased: 0,
+    upgradeName: Снижение деградации ДНК,
+    upgradeValue: 300
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 200000,
+    purchased: 0,
+    upgradeName: Ферменты для сохранения ДНК,
+    upgradeValue: 900
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 1000000,
+    purchased: 0,
+    upgradeName: Проникновение в кости организма,
+    upgradeValue: 2751
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 3333333,
+    purchased: 0,
+    upgradeName: Проникновение в мозг организма,
+    upgradeValue: 9000
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 11111111,
+    purchased: 0,
+    upgradeName: Абcорбция ДНК,
+    upgradeValue: 30000
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 20,
+    purchased: 0,
+    upgradeName: Подавление сопротивления организма,
+    upgradeValue: 1
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 200,
+    purchased: 0,
+    upgradeName: Сегрегация клеток,
+    upgradeValue: 2
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 1000,
+    purchased: 0,
+    upgradeName: Срок жизни вируса в организме,
+    upgradeValue: 5
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 7000,
+    purchased: 0,
+    upgradeName: Мутации вируса в организме,
+    upgradeValue: 10
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 25000,
+    purchased: 0,
+    upgradeName: Стимуляция деления ДНК - клеток,
+    upgradeValue: 20
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 100000,
+    purchased: 0,
+    upgradeName: Принудительное деление клеток,
+    upgradeValue: 45
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 500000,
+    purchased: 0,
+    upgradeName: Контроль обмена веществ,
+    upgradeValue: 100
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 2600000,
+    purchased: 0,
+    upgradeName: Контроль разума заражённого,
+    upgradeValue: 205
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 37000000,
+    purchased: 0,
+    upgradeName: Стимуляция выработки ДНК,
+    upgradeValue: 450
+  },
+  {
+    class: com.mygdx.game.Model.Upgrade,
+    basecost: 9999999999,
+    purchased: 0,
+    upgradeName: Клонирование ДНК,
+    upgradeValue: 1000
+  }
+],
+
+
+}

@@ -6,6 +6,7 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.ParticleEffect;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.StretchViewport;
@@ -29,14 +30,16 @@ public class MainScreen implements Screen,InputProcessor {
         Gdx.input.setInputProcessor(scene);
         batch = new SpriteBatch();
         particles = new ConcurrentLinkedDeque<>();
+
     }
 
     @Override
     public void render(float delta) {
         Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-        scene.update();
+        scene.update(delta);
         batch.begin();
+
         for (ParticleEffect particle : particles) {
             particle.draw(batch,Gdx.graphics.getDeltaTime());
             if(particle.isComplete()) {
@@ -59,7 +62,7 @@ public class MainScreen implements Screen,InputProcessor {
 
     @Override
     public void pause() {
-
+        scene.save();
     }
 
     @Override
@@ -74,6 +77,7 @@ public class MainScreen implements Screen,InputProcessor {
 
     @Override
     public void dispose() {
+        scene.save();
         batch.dispose();
         scene.dispose();
         assets.dispose();

@@ -20,8 +20,8 @@ public class Counter extends Label {
         this.dnaicon = dnaicon;
         width = getWidth();
         height = getHeight();
-        setX(Gdx.graphics.getWidth()/2-getWidth()/2);
-        setY(Gdx.graphics.getHeight()-2*getHeight());
+        setX(Gdx.graphics.getWidth()/2f-getWidth()/2);
+        setY(Gdx.graphics.getHeight()-2f*getHeight());
 
     }
 
@@ -31,8 +31,8 @@ public class Counter extends Label {
         batch.draw(dnaicon,Gdx.graphics.getWidth()/2-getWidth()/2 - 150, Gdx.graphics.getHeight()-2*getHeight(),128,128);
     }
 
-    public void inc(long delta) {
-        counter+=delta;
+    public void setCounter(long delta) {
+        counter=delta;
         setWidth(Long.toString(counter).length()*45);
         setX((Gdx.graphics.getWidth()/2f-getWidth()/2)+64);
         setText(Long.toString(counter));

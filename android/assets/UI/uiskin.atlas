@@ -1,9 +1,23 @@
 
-uiatlas.png
+uiskin.png
 size: 4096, 2048
 format: RGBA8888
 filter: Linear, Linear
 repeat: none
+buybutton
+  rotate: false
+  xy: 3016, 1302
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+darkgrey
+  rotate: false
+  xy: 2, 150
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 dnabutton
   rotate: false
   xy: 1094, 2
@@ -27,16 +41,9 @@ dnkicon
   index: -1
 grey
   rotate: false
-  xy: 3016, 1366
+  xy: 3530, 1880
   size: 64, 64
   orig: 64, 64
-  offset: 0, 0
-  index: -1
-zaglushka
-  rotate: false
-  xy: 2, 864
-  size: 1920, 1080
-  orig: 1920, 1080
   offset: 0, 0
   index: -1
 powerbutton
@@ -51,5 +58,12 @@ spreadbutton
   xy: 2, 216
   size: 1090, 646
   orig: 1090, 646
+  offset: 0, 0
+  index: -1
+zaglushka
+  rotate: false
+  xy: 2, 864
+  size: 1920, 1080
+  orig: 1920, 1080
   offset: 0, 0
   index: -1

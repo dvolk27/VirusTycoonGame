@@ -18,8 +18,8 @@
 
   LabelStyle: {
     default: {font: default-font, fontColor: green }
-    upgrades-big: {font: default-font, fontColor: white}
-    upgrades-small:{font: default-font, fontColor: white}
+    upgrades-big: {font: default-font, fontColor: white }
+    upgrades-small:{font: default-font, fontColor: menuitem}
   },
   TextButtonStyle: {
     default: {  font: default-font, fontColor: white, disabledFontColor: grey }
@@ -33,9 +33,14 @@
   },
   ImageTextButtonStyle: {
     default: {
-      imageUp:grey,
-      imageDown:grey,
+      imageUp:buybutton,
+      imageDown:buybutton,
       font:default-font
+    }
+  }
+  ProgressBarStyle: {
+    default-horizontal: {
+      disabledBackground:grey
     }
   }
 }
