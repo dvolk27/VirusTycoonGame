@@ -41,7 +41,7 @@ public class SplashScreen  implements Screen {
         batch.draw(splashScreen,0,0, Gdx.graphics.getWidth(),Gdx.graphics.getHeight());
         batch.end();
         Float progress = assets.manager.getProgress();
-        Gdx.app.log("dan",String.valueOf(progress));
+
         assets.manager.update();
         if(assets.manager.update()) {
             assets.manager.finishLoading();

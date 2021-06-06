@@ -70,7 +70,7 @@ public class Scene extends Stage{
         background = new Background();
         people = new People(assets,width/2,height/5f,Integer.parseInt(iterator.next().toString().split(" ")[1]),this);
         virus = new Virus(1,1,1,1,1,1);
-        Gdx.app.log("dan",json.toJson(virus,Virus.class));
+
         virus = json.fromJson(Virus.class,iterator.next().child.toString());
         backGroundAtlas = assets.manager.get(Assets.backGroundAtlas);
         setPlanet(planet);
@@ -302,24 +302,31 @@ public class Scene extends Stage{
         for (UpgradeActor upgradeActor : upgradeActors) {
             upgradeActor.update();
         }
-        if(virus.getInfected() >= 20000000 && planet != 5) {
-            planet = 5;
-            setPlanet(planet);
+        if(virus.getInfected() >= 20000000) {
+            if (planet != 5) {
+                planet = 5;
+                setPlanet(planet);
+            }
         }
-        else if(virus.getInfected() >= 2500000 && planet != 4) {
-            planet = 4;
-            setPlanet(planet);
+        else if(virus.getInfected() >= 2500000) {
+            if (planet != 4) {
+                planet = 4;
+                setPlanet(planet);
+            }
         }
-        else if(virus.getInfected() >= 15) {
+        else if(virus.getInfected() >= 500000) {
             if(planet != 3) {
                 planet = 3;
                 setPlanet(planet);
             }
 
         }
-        else if(virus.getInfected() >= 10) {
-            planet = 2;
-            setPlanet(planet);
+        else if(virus.getInfected() >= 100000) {
+            if (planet != 2) {
+                planet = 2;
+                setPlanet(planet);
+            }
+
         }
         virus.update(delta);
     }

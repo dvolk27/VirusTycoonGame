@@ -3,6 +3,7 @@ package com.mygdx.game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.ParticleEffect;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -21,6 +22,7 @@ public class MainScreen implements Screen,InputProcessor {
     private SpriteBatch batch;
     private Assets assets;
     private ConcurrentLinkedDeque<ParticleEffect> particles;
+    private Music music;
     public MainScreen(Assets assets){
         this.assets = assets;
     }
@@ -30,7 +32,10 @@ public class MainScreen implements Screen,InputProcessor {
         Gdx.input.setInputProcessor(scene);
         batch = new SpriteBatch();
         particles = new ConcurrentLinkedDeque<>();
-
+        music = Gdx.audio.newMusic(Gdx.files.internal("background_music.mp3"));
+        music.setLooping(true);
+        music.setVolume(0.5f);
+        music.play();
     }
 
     @Override
